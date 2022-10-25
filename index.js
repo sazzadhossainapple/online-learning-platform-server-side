@@ -22,5 +22,5 @@ app.get("/courses/:id", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Programming Learning Reactive runnig on port, ${port}`);
+  console.log(`Programming learning reactive runnig on port, ${port}`);
 });
