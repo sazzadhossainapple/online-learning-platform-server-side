@@ -8,7 +8,7 @@ const courses = require("./data/Courses.json");
 
 app.use(cors());
 app.get("/", (req, res) => {
-  res.send(" Programming learning reactive server is running");
+  res.send(" Programming Learning Reactive server is running");
 });
 
 app.get("/courses", (req, res) => {
